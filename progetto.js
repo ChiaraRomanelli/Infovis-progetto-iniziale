@@ -47,10 +47,10 @@ function progettocase(){
 
 			
 			
-			var miaScala = d3.scaleLinear()
-				.domain([7, 90])
-				.range([20, 130])
-			
+	    var miaScala = d3.scaleLinear()
+		.domain([7, 90])
+		.range([20, 130])
+
             var gruppoCasa = svg.append("g")
                 .attr('id', 'casa' + this.id)
                 .attr('class', 'casa');
@@ -110,34 +110,34 @@ function progettocase(){
 	
 	d3.json("data/data2.json").then(function(data){ 
 		
-		for (var i = 0; i < data.length; i++) {
+	for (var i = 0; i < data.length; i++) {
             var nuovaCasa = CopiaCasa();
             nuovaCasa.inizializza(i, data[i]);
             DatiCase.push(nuovaCasa);
         }
 		
 		
-		 // Cambiamenti altezza e larghezza
-		var clickedOnce = false
+	// Cambiamenti altezza e larghezza
+	var clickedOnce = false
         d3.selectAll(".rettangolo")
-				.on("click", function () {
-					if (clickedOnce!= true){
-						console.log("altezza cliccata!");
-						aggiornamentoCasa('altezza');
-						clickedOnce= true;
-		
-					}
-					else if (clickedOnce== true){
-					console.log("larghezza cliccata!");
-					aggiornamentoCasa('larghezza');
-					clickedOnce= false;
-					}
+		.on("click", function () {
+			if (clickedOnce!= true){
+				console.log("altezza cliccata!");
+				aggiornamentoCasa('altezza');
+				clickedOnce= true;
+
+			}
+			else if (clickedOnce== true){
+			console.log("larghezza cliccata!");
+			aggiornamentoCasa('larghezza');
+			clickedOnce= false;
+			}
 					
             });
 			
 		
 			
-		// Cambiamenti altezza porta
+	// Cambiamenti altezza porta
         d3.selectAll(".porta")
             .on("click", function () {
                 console.log("porta cliccata!");
