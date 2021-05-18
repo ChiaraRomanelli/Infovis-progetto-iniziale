@@ -6,10 +6,10 @@ Crea un file json con dei dati multivariati: ci sono 10 data-cases e ogni data-c
 
 Le caratteristiche sulle quali è possibile cliccare per ordinare le case da sinistra verso destra sono:
 
-ALTEZZA DELLA CASA: cliccando sul lato della casa
-LARGHEZZA DELLA CASA: cliccando sulla base della casa
-ALTEZZA DELLA PORTA: cliccando sulla porta
-LATO DEL TETTO: cliccando sul tetto
+ALTEZZA DELLA CASA: cliccando sul lato della casa,
+LARGHEZZA DELLA CASA: cliccando sulla base della casa,
+ALTEZZA DELLA PORTA: cliccando sulla porta,
+LATO DEL TETTO: cliccando sul tetto.
 
 # Versione utilizzata
 La versione di D3.js utilizzata è stata la v6
