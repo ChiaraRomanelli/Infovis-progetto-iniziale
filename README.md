@@ -15,6 +15,6 @@ Le caratteristiche sulle quali è possibile cliccare per ordinare le case da sin
 La versione di D3.js utilizzata è stata la v6
 
 # Sviluppo in locale
-Il progetto può essere eseguito lanciando il comando python -m SimpleHTTPServer porta oppure python -m http.server porta se si usa la versione 3 di python
+Il progetto può essere eseguito lanciando il comando python -m SimpleHTTPServer porta oppure python -m http.server porta se si usa la versione 3 di python.
 In seguito aprire il borwser di riferimento e digitare http:://localhost:[porta]
 
