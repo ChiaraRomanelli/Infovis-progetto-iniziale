@@ -1,0 +1,73 @@
+[	
+	{	
+		"Nome": "casa1",
+		"altezza": 80,
+		"larghezza": 60,
+		"porta": 28,
+		"lato_tetto": 73
+	},
+	{	
+		"Nome": "casa2",
+		"altezza": 75,
+		"larghezza": 55,
+		"porta": 50,
+		"lato_tetto": 68
+	},
+	{	
+		"Nome": "casa3",
+		"altezza": 60,
+		"larghezza": 40,
+		"porta": 36,
+		"lato_tetto": 53
+	},
+	{	
+		"Nome": "casa4",
+		"altezza": 70,
+		"larghezza": 50,
+		"porta": 30,
+		"lato_tetto": 63
+	},
+	{	
+		"Nome": "casa5",
+		"altezza": 55,
+		"larghezza": 30,
+		"porta": 27.5,
+		"lato_tetto": 43
+	},
+	{	
+		"Nome": "casa6",
+		"altezza": 38,
+		"larghezza": 28,
+		"porta": 20,
+		"lato_tetto": 38
+	},
+	{	
+		"Nome": "casa7",
+		"altezza": 45,
+		"larghezza": 35,
+		"porta": 25,
+		"lato_tetto": 48
+	},
+	{	
+		"Nome": "casa8",
+		"altezza": 40,
+		"larghezza": 32,
+		"porta": 20,
+		"lato_tetto": 45
+	},
+	{	
+		"Nome": "casa9",
+		"altezza": 35,
+		"larghezza": 27,
+		"porta": 15,
+		"lato_tetto": 40
+	},
+	{	
+		"Nome": "casa10",
+		"altezza": 30,
+		"larghezza": 22,
+		"porta": 5,
+		"lato_tetto": 35
+	}
+]
+	
